@@ -1,11 +1,11 @@
 import './App.css'
-import Github from './icons/Github';
+import Header from './Header';
 
 function App() {
 
   return (
     <div className='App'>
-      <Github></Github>
+      <Header/>
     </div>
   )
 }
