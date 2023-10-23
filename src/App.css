@@ -1,4 +1,11 @@
 .App {
     min-height: 100vh;
+    background-image: url('./assets/image-profile-desktop.webp');
+    background-repeat: no-repeat;
+    background-size: 445px 720px;
+    background-position: right 150px top 0px;
+}
+
+.App .appContainer {
     padding: 0px 150px;
 }
