@@ -3,9 +3,6 @@ import Header from './Header';
 import HorizontalLine from './HorizontalLine';
 
 function Footer() {
-    const handleSubmit = () => {
-
-    }
 
   return (
     <div className='footer'>

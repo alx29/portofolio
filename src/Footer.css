@@ -1,6 +1,7 @@
 .footer {
     background: var(--Dark-Grey, #242424);
     padding: 0px 150px;
+    height: 500px;
 }
 
 .footer .footerContainer {
@@ -39,10 +40,6 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
-}
-
-.inputContainer {
-    /* padding-top: 32px; */
 }
 
 .bottomBorder {
