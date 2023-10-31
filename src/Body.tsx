@@ -23,7 +23,7 @@ function Body() {
                         return <Skill name={name} experience={experience} key={name}/>
                     })}
                 </div>
-                {/* <Ring /> */}
+                <Ring />
             </div>
             <div className='projectsContainer'>
                 <div className='projectsHeader'>

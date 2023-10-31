@@ -1,7 +1,7 @@
 .body .ring1 {
     position: relative;
     top: 42px;
-    left: -200px;
+    left: -300px;
 }
 
 .body .bodyContainer {
@@ -38,12 +38,7 @@
 
 .body .bodyContainer .skillsContainer img {
     position: relative;
-    bottom: 30px;
-    left: 1400px;
-}
-
-.body .bodyContainer .projectsContainer {
-    margin-top: 140px;
+    left: 90%;
 }
 
 .body .bodyContainer .projectsContainer .projectsHeader {

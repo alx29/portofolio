@@ -1,6 +1,7 @@
 import './Footer.css';
 import Header from './Header';
 import HorizontalLine from './HorizontalLine';
+import Ring from './icons/Ring';
 
 function Footer() {
 
@@ -10,6 +11,9 @@ function Footer() {
             <div className='contact'>
                 <div className='contactTitle'>Contact</div>
                 <div className='contactDescription'>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</div>
+                <div className='ring3'>
+                    <Ring />
+                </div>
             </div>
             <div className='contactForm'>
                 <div className="inputContainer">

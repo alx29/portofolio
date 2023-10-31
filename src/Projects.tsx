@@ -60,7 +60,13 @@ function Projects() {
 
                 return (
                 <div className='project' key={source}>
-                    <img src={src}></img>
+                    <div className='imageContainer'>
+                        <img className='projectImage' src={src}></img>
+                        <div className='buttonContainer'>
+                            <div className='view'>VIEW PROJECT</div>
+                            <div className='view'>VIEW CODE</div>
+                        </div>
+                    </div>
                     <div className='projectTitle'>{title}</div>
                     <div className='languages'>
                         {languages.map((language) => {

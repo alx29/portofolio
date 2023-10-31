@@ -36,6 +36,11 @@
     line-height: 28px; /* 155.556% */
 }
 
+.footer .footerContainer .contact .ring3 {
+    position: relative;
+    left: -400px;
+}
+
 .footer .footerContainer .contactForm {
     display: flex;
     flex-direction: column;
