@@ -21,10 +21,10 @@ function Footer() {
             'KD3TtP-_wxySYmUEG'
         )
         .then(
-            (result) => {
+            () => {
                 alert('Email sent successfully');
             },
-            (error) => {
+            () => {
                 alert('Failed to send the email. Please try again later.');
             }
         );

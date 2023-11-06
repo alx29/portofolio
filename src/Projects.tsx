@@ -65,7 +65,6 @@ const projects: IProject[] = [
 function Projects() {
     const [sources, setSources] = useState<string[]>([]);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-    const [screenHeight, setScreenHeight] = useState(window.innerHeight);
 
     useEffect(() => {
         setSources([thumbnail1, thumbnail2, thumbnail3, thumbnail4, thumbnail5, thumbnail6]);
@@ -74,7 +73,6 @@ function Projects() {
     useEffect(() => {
         const updateWindowDimensions = () => {
             setScreenWidth(window.innerWidth);
-            setScreenHeight(window.innerHeight);
         };
 
         // Attach the event listener

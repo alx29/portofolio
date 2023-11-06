@@ -1,6 +1,5 @@
 import './Body.css';
 import Description from './Description';
-import Footer from './Footer';
 import HorizontalLine from './HorizontalLine';
 import Projects from './Projects';
 import Skill from './Skill';
