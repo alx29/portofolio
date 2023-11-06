@@ -44,6 +44,7 @@
 .footer .footerContainer .contactForm {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-bottom: 40px;
 }
 
@@ -65,7 +66,6 @@
 }
 
 .sendMessageContainer .sendMessage {
-    
     cursor: pointer;
     color: var(--White, #FFF);
     font-family: Space Grotesk;
@@ -79,4 +79,94 @@
 
 .sendMessageContainer .sendMessage:hover {
     color: var(--Green, #4EE1A0);
+}
+
+@media screen and (max-width: 1260px) {
+    .footer {
+        height: 800px;
+    }
+
+    .footer .footerContainer {
+        padding-top: 84px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .footerContainer .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 0px 32px;
+        height: 800px;
+    }
+
+    .footer .footerContainer {
+        padding-top: 84px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .footerContainer .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .footerContainer .contact .contactDescription {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 0px 32px;
+        height: 800px;
+    }
+
+    .footer .footerContainer .contact .contactTitle {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 100% */
+        letter-spacing: -1.136px;
+    }
+
+    .footer .footerContainer .contact .contactDescription {
+        max-width: 100%;
+        text-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer .footerContainer .contact .contactDescription {
+        width: 300px;
+    }
+
+    .footer .footerContainer .contactForm .inputContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .footerContainer .contactForm .inputContainer input {
+        width: 200px;
+    }
+
+    .footer .footerContainer .contactForm .sendMessageContainer {
+        width: 200px;
+    }
 }

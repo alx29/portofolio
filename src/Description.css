@@ -28,3 +28,33 @@
     font-weight: 500;
     line-height: 28px; /* 155.556% */
 }
+
+@media screen and (max-width: 768px) {
+    .title {
+        margin-top: 37px;
+        width: 445px;
+        color: var(--White, #FFF);
+        font-family: Space Grotesk;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -2.045px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        width: 100%;
+        margin-top: 0px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+        text-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+
+    .description {
+        width: 100%;
+    }
+}

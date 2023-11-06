@@ -10,3 +10,15 @@
 .App .appContainer {
     padding: 0px 150px;
 }
+
+@media screen and (max-width: 1200px) {
+    .App {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App .appContainer {
+        padding: 0px 32px;
+    }
+}

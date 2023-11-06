@@ -2,7 +2,7 @@ import './Description.css';
 
 function Description() {
   return (
-    <div>
+    <div className='descriptionContainer'>
         <div className='title'>Nice to meet you!</div>
         <div className='title'>
             I'm <span className='name'>Adam Keys</span>.

@@ -18,7 +18,6 @@
 .projects .project .projectTitle {
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Heading (M) */
     font-family: Space Grotesk;
     font-size: 24px;
     font-style: normal;
@@ -95,3 +94,46 @@
     opacity: 0.3;
 }
 
+@media screen and (max-width: 1400px) {
+    .projects .project img {
+        width: 450px;
+        height: 353px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .projects {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonContainer {
+        top: initial;
+        left: initial;
+        transform: initial;
+        margin-top: 10px;
+        opacity: 1;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .view {
+        opacity: 1;
+    }
+
+    .projects .project img {
+        width: 300px;
+        height: 200px;
+    }
+}
